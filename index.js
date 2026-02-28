@@ -3,7 +3,7 @@ const TelegramBot = require("node-telegram-bot-api");
 const axios = require("axios");
 
 const bot = new TelegramBot(process.env.BOT_TOKEN, { polling: true });
-const API = "https://time-tracker-i8qv.onrender.com";
+const API = "worktimeetrackertelegrambot-production.up.railway.app";
 
 const userState = {};
 const timers = {};
